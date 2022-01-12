@@ -1,0 +1,12 @@
+SEED: 1111
+DATA:
+  IMG_SIZE: 416
+MODEL:
+  TYPE: swin
+  NAME: swin_large_416
+  DROP_PATH_RATE: 0.1
+  SWIN:
+    EMBED_DIM: 192
+    DEPTHS: [ 2, 2, 16, 2 ]
+    NUM_HEADS: [ 4, 8, 16, 32 ]
+    WINDOW_SIZE: 13
